@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block 'content' %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+            <div class="form-container bg-white p-4 rounded shadow">
+                <h1 class="form-title text-center mb-4">Solicitar Arriendo</h1>
+                <form method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit" class="btn btn-primary">Enviar Solicitud</button>
+                </form>    
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,78 @@
+[
+{
+  "model": "arriendoapp.inmueble",
+  "pk": 1,
+  "fields": {
+    "nombre": "Departamento en Valparaiso",
+    "descripcion": "Amplio, buen lugar para vivir,  con buena locomocion",
+    "m2_construidos": 78,
+    "m2_totales": 78,
+    "estacionamientos": 1,
+    "habitaciones": 3,
+    "banos": 2,
+    "direccion": "Pasaje  2 de valparaiso 12",
+    "region": 6,
+    "comuna": 45,
+    "tipo_inmueble": 2,
+    "precio_arriendo": 450000,
+    "arrendador": 3
+  }
+},
+{
+  "model": "arriendoapp.inmueble",
+  "pk": 2,
+  "fields": {
+    "nombre": "Casa en Providencia",
+    "descripcion": "Cercano a varios lugares  de entretencion y servicios",
+    "m2_construidos": 80,
+    "m2_totales": 100,
+    "estacionamientos": 1,
+    "habitaciones": 4,
+    "banos": 2,
+    "direccion": "Calle de providencia",
+    "region": 16,
+    "comuna": 316,
+    "tipo_inmueble": 1,
+    "precio_arriendo": 450000,
+    "arrendador": 3
+  }
+},
+{
+  "model": "arriendoapp.inmueble",
+  "pk": 3,
+  "fields": {
+    "nombre": "Parcela en La Serena",
+    "descripcion": "Amplia parcela cerca de la carretera con acceso a servicio de luz y agua potable con 3 habitaciones y dos basos",
+    "m2_construidos": 400,
+    "m2_totales": 5000,
+    "estacionamientos": 5,
+    "habitaciones": 6,
+    "banos": 3,
+    "direccion": "Parcela lote numero 2",
+    "region": 5,
+    "comuna": 30,
+    "tipo_inmueble": 3,
+    "precio_arriendo": 700000,
+    "arrendador": 4
+  }
+},
+{
+  "model": "arriendoapp.inmueble",
+  "pk": 4,
+  "fields": {
+    "nombre": "Departamento en Temuco",
+    "descripcion": "Cercano al hospital y centro de Temuco con gran servicio de locomocion local.",
+    "m2_construidos": 120,
+    "m2_totales": 300,
+    "estacionamientos": 1,
+    "habitaciones": 3,
+    "banos": 2,
+    "direccion": "Prieto Norte 345",
+    "region": 11,
+    "comuna": 200,
+    "tipo_inmueble": 2,
+    "precio_arriendo": 410000,
+    "arrendador": 5
+  }
+}
+]

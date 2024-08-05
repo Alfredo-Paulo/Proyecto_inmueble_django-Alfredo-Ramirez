@@ -1,0 +1,114 @@
+[
+{
+  "model": "arriendoapp.region",
+  "pk": 1,
+  "fields": {
+    "nombre": "Arica y Parinacota"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 2,
+  "fields": {
+    "nombre": "Tarapacá"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 3,
+  "fields": {
+    "nombre": "Antofagasta"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 4,
+  "fields": {
+    "nombre": "Atacama"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 5,
+  "fields": {
+    "nombre": "Coquimbo"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 6,
+  "fields": {
+    "nombre": "Valparaíso"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 7,
+  "fields": {
+    "nombre": "Región del Libertador Gral. Bernardo O’Higgins"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 8,
+  "fields": {
+    "nombre": "Región del Maule"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 9,
+  "fields": {
+    "nombre": "Región de Ñuble"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 10,
+  "fields": {
+    "nombre": "Región del Biobío"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 11,
+  "fields": {
+    "nombre": "Región de la Araucanía"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 12,
+  "fields": {
+    "nombre": "Región de Los Ríos"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 13,
+  "fields": {
+    "nombre": "Región de Los Lagos"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 14,
+  "fields": {
+    "nombre": "Región Aisén del Gral. Carlos Ibáñez del Campo"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 15,
+  "fields": {
+    "nombre": "Región de Magallanes y de la Antártica Chilena"
+  }
+},
+{
+  "model": "arriendoapp.region",
+  "pk": 16,
+  "fields": {
+    "nombre": "Región Metropolitana de Santiago"
+  }
+}
+]
