@@ -1,25 +1,6 @@
 [
 {
   "model": "arriendoapp.inmueble",
-  "pk": 1,
-  "fields": {
-    "nombre": "Departamento en Valparaiso",
-    "descripcion": "Amplio, buen lugar para vivir,  con buena locomocion",
-    "m2_construidos": 78,
-    "m2_totales": 78,
-    "estacionamientos": 1,
-    "habitaciones": 3,
-    "banos": 2,
-    "direccion": "Pasaje  2 de valparaiso 12",
-    "region": 6,
-    "comuna": 45,
-    "tipo_inmueble": 2,
-    "precio_arriendo": 450000,
-    "arrendador": 3
-  }
-},
-{
-  "model": "arriendoapp.inmueble",
   "pk": 2,
   "fields": {
     "nombre": "Casa en Providencia",

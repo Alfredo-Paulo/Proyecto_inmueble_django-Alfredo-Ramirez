@@ -39,12 +39,12 @@
 </div>
 
 <div class="content-container">
-    <h1 class="mb-5 text-center">Listado de arriendos en ArriendoApp</h1>
+    <h1 class="mb-4 mt-2 text-center">Listado de arriendos en ArriendoApp</h1>
     
     {% if inmuebles %}
-    <div class="inmuebles-grid">
+    <div class="inmuebles-grid d-flex justify-content-center">
         {% for inmueble in inmuebles %}
-        <div class="inmueble-card">
+        <div class="inmueble-card" style="width: 17rem;">
             <div class="card-header">
                 <h2>{{ inmueble.nombre }}</h2>
             </div>

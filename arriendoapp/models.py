@@ -30,11 +30,12 @@ class Usuario(models.Model):
         ('arrendador', 'Arrendador'),
     ]
 
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+
+    user = models.IntegerField(unique=True)
     nombres = models.CharField(max_length=100)
     apellidos = models.CharField(max_length=100)
-    rut = models.CharField(max_length=20)
-    direccion = models.CharField(max_length=200)
+    rut = models.CharField(max_length=12, unique=True)
+    direccion = models.CharField(max_length=255)
     telefono = models.CharField(max_length=20)
     tipo_usuario = models.CharField(max_length=20, choices=TIPO_USUARIO_CHOICES, default='arrendatario')
 

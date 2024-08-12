@@ -60,7 +60,7 @@ def login_view(request):
 # Vista para mostrar el perfil del usuario
 @login_required
 def perfil(request):
-    usuario = request.user.usuario
+    usuario = request.user
     inmuebles = Inmueble.objects.filter(arrendador=usuario)
     return render(request, 'perfil.html', {'usuario': usuario, 'inmuebles': inmuebles})
 
