@@ -10,6 +10,7 @@ continuar en la construcción del proyecto. La siguiente etapa es necesita levan
 información geográfica de Chile (Comunas y Regiones), además necesita generar un script
 que les permita realizar reportes sobre la aplicación.
 
+hito 1 : Conectando Django a una base de datos
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ¡Gracias por revisar mis proyectos! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
