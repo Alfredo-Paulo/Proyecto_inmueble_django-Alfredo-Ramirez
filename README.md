@@ -1,4 +1,5 @@
- # Migraciones y recuperación de datos con Django
+## Migraciones y recuperación de datos con Django
+
 Creación de página web de arriendo de casas, departámentos y Parcelas.
  
 Una empresa dedicada al arriendo de inmuebles requiere de su ayuda para crear un sitio web
@@ -7,4 +8,7 @@ habiendo creado un entorno de trabajo y conectado a nuestra base de datos, debem
 continuar en la construcción del proyecto. La siguiente etapa es necesita levantar la
 información geográfica de Chile (Comunas y Regiones), además necesita generar un script
 que les permita realizar reportes sobre la aplicación.
----
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+¡Gracias por revisar mis proyectos! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
