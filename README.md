@@ -11,6 +11,8 @@ información geográfica de Chile (Comunas y Regiones), además necesita generar
 que les permita realizar reportes sobre la aplicación.
 
 hito 1 : Conectando Django a una base de datos
+hito 2 : Migraciones y recuperación de datos con Django
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ¡Gracias por revisar mis proyectos! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
