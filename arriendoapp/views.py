@@ -60,9 +60,10 @@ def login_view(request):
 # Vista para mostrar el perfil del usuario
 @login_required
 def perfil(request):
-    usuario = request.user
+    usuario = get_object_or_404(Usuario, user=request.user)  # Obtener la instancia de Usuario relacionada con el User
     inmuebles = Inmueble.objects.filter(arrendador=usuario)
     return render(request, 'perfil.html', {'usuario': usuario, 'inmuebles': inmuebles})
+
 
 # Vista para editar el perfil del usuario
 @login_required

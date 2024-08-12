@@ -18,7 +18,7 @@ class Comuna(models.Model):
 
 # Modelo para el tipo de inmueble
 class TipoInmueble(models.Model):
-    nombre = models.CharField(null= False,  blank=False, max_length=50)
+    nombre = models.CharField(null= False, blank=False, max_length=50)
 
     def __str__(self):
         return self.nombre
@@ -30,8 +30,8 @@ class Usuario(models.Model):
         ('arrendador', 'Arrendador'),
     ]
 
-
-    user = models.IntegerField(unique=True)
+    # Establece una relación uno a uno con el modelo User
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     nombres = models.CharField(max_length=100)
     apellidos = models.CharField(max_length=100)
     rut = models.CharField(max_length=12, unique=True)
@@ -70,3 +70,4 @@ class SolicitudArriendo(models.Model):
 
     def __str__(self):
         return f'Solicitud de {self.arrendatario.username} para {self.inmueble.nombre}'
+
