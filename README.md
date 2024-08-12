@@ -1,7 +1,8 @@
 ## Migraciones y recuperación de datos con Django
 
 Creación de página web de arriendo de casas, departámentos y Parcelas.
- 
+
+ # Descripción
 Una empresa dedicada al arriendo de inmuebles requiere de su ayuda para crear un sitio web
 donde usuarios puedan revisar inmuebles disponibles para el arriendo. Por lo tanto, y ya
 habiendo creado un entorno de trabajo y conectado a nuestra base de datos, debemos
