@@ -16,7 +16,9 @@ hito 2 : Migraciones y recuperación de datos con Django
 
 hito 3 : Creando una aplicación usando datos con Django y el patrón MVC
 
-Hito 4 - Creando una aplicación usando datos con Django y su ORM
+Hito 4 : Creando una aplicación usando datos con Django y su ORM
+
+Hito 5 : Presentacion del proyecto 
 
 Proyecto inmueble django Alfredo-Ramirez
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
